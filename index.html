@@ -1,47 +1,167 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/sty.css">
-  <title>BELLEIMMO</title>
+<title>BAKARY SHOP</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- tabs -->
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- / tabs -->
+<script type="text/javascript" src="layout/scripts/jquery-photostack.js"></script>
+<!-- coinslider -->
+<script type="text/javascript" src="layout/scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+});
+</script>
+
 </head>
-<body>
-  <center>
-    <h1>
-     <b><em><big>BELLEIMMO</big></em></b>
-   </h1>
-  </center>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">BAKARY SHOP</a></h1>
+      <p>Gildas Wilson</p>
+    </div>
+    <div class="fl_right"><a href="#"><img src="images/demo/logo.jpeg" alt="" width="468" height="90" /></a></div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<div class="wrapper col2">
+  <div id="container" class="clear"> 
+    
+    <div id="tabcontainer">
+      <ul id="tabnav">
+        <li><a href="#tabs-1">Nos services</a></li>
+        
+      </ul>
+      <div id="tabs-1" class="tabcontainer">
+        <div id="hpage_services" class="clear">
+          <div class="block">
+            <img src="images/demo/ch3.jpg" alt="" width=""300 height="200" />
+
+            <strong>Chaussure 100% Cuir</strong>
+
+            <p>Taille comprise entre 40-45</p>
+            <p>
+              Prix hors taxe: 45000 FCFA
+            </p>
+
+          </div>
+          <div class="block">
+            <img src="images/demo/ch5.jpg" alt="" width=""500 height="100" />
+
+            <strong> Mocassins du Maroc</strong>
+            <p>
+              Taille comprise entre 39-41</p>
+
+              <p>Prix hors taxe: 25000 FCFA</p>
+              
+          </div>
+          <div class="block last">
+            <img src="images/demo/logo2.jpg" alt="" width=""300 height="200" />
+
+            <strong>Chaussure costumes</strong>
+
+            <p> Taille comprise entre 40-45</p>
+            <p>Prix hors taxe: 95000 FCFA </p>
+          </div>
+          <div class="spacer">&nbsp;</div>
+          <div class="block">
+
+            <img src="images/demo/boot.jpg" alt="" width=""360 height="300" />
+            <strong>Les Bottines d'Espagne</strong>
+            <p>Taille comprise entre 39-45</p>
+             <P>Prix hors taxe: 35000 FCFA</P>
+          </div>
+          <div class="block"><img src="images/demo/soulier.jpg" alt="" width=""300 height="300" />
+            <strong>Souliers en cuir</strong>
+            <p>Taille comprise entre 40-47</p>
+            <P>Prix hors taxe: 50000 FCFA </P>
+          </div>
+          <div class="block last">
+            <img src="images/demo/Sebago.jpg" alt="" width=""300 height=350" />
+
+            <strong>Sebago</strong>
+
+            <p>Taille comprise entre 40-45</p>
+            <P>Prix hors taxe: 15000 FCFA</P>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+     
+  </div>
+</div>
+
+
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="footbox">
+      <h2>A propos</h2>
+      <p> BAKARY SHOP est un site de vente de chaussures classique Homme.Nous travaillons en étroite collaboration avec différents 
+      fournisseur issus d'Italie , du Maroc et d'Espagne.Nos chaussures sont résistive et faites avec du cuir traité</p>
+      <p></p>
+    </div>
+     
+
+
+    <div class="footbox">
+      <h2>Lien de Recherche</h2>
+      <ul>
+        <li><a href="http//google.com" target="_blank">Lien vers google</a></li>
+        
+      </ul>
+    </div>
+    <div class="footbox last">
+      <h2>Réseaux Sociaux</h2>
+      <ul>
+        <li><a href="http//Facebook.com" target="_blank"> Visitez notre page Facebook</a></li>
+        
+         </ul>
+      <h2>Nos Contacts</h2>
+      <ul>
+        <li><strong class="title">Tel:</strong><br />
+          62 52 68 41 /68 46 11 42</li>
+        <li><strong class="title">Email:</strong><br />
+          <a href="mail:gildashounkpatin0@gmail.com" target="_blank">gildashounkpatin0@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2022 - Tout droit est réservé à Gildas Hounkpatin - <a href="#">Nom du domaine:github.com</a></p>
+    <p class="fl_right"> <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">Gildas Wilson Dagbégnon HOUNKPATIN</p>
+
+
+
+
+  </div>
+</div>
 </body>
 </html>
-<style>
-h1{
-
-  background-color: gainsboro;
-
-  color: beige;
-
-}
-
-body{
-
-  background-color: blanchedalmond;
-
-}
-
-h1{
-
-  background-color: gainsboro;
-
-  color: beige;
-
-}
-
-body{
-
-  background-color: blanchedalmond;
-
-}
-
-</style>
